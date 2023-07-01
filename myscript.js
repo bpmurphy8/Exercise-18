@@ -15,8 +15,7 @@ let MyCounter = () => {
     return(
         <div>
             <button onClick={clickHandler}>
-            Click Me! </button>
-            <p> {counter} </p><br/>
+            {counter}! </button>
             
         </div>
     );
